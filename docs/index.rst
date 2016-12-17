@@ -3,8 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+
+****************************************************************
 The Technical Guide to Computational Methods in the Civic Sphere
-================================================================
+****************************************************************
 
 A guide to all the technical concepts covered in `CompCiv 2017`_
 

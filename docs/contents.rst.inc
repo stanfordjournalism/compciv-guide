@@ -1,10 +1,16 @@
-Let's go TK
+Here's the stuff
 
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
 
-   command-line/intro-to-the-command-line
+   end-user-software/index
 
+
+
+.. toctree::
+   :maxdepth: 2
+
+   command-line/index
 
 
