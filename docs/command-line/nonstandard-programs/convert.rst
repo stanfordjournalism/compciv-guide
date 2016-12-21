@@ -1,4 +1,4 @@
-**********
-convert - command-line image transformation
-**********
+******************************************
+magick - command-line image transformation
+******************************************
 
