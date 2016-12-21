@@ -1,0 +1,6 @@
+
+
+- shuf
+- join
+- tsort
+- <

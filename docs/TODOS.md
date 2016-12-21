@@ -1,7 +1,145 @@
 # Todos
 
+### Tool-crafting
+
+- howoldami
+- Upload to S3 via boto
+- Text messaging
+- Twitter botting
+- Command-line text filtering
+- Frequency counter: pattern, exact match, count
+- 404-finder
+- Bitly-converter
+- Making a command-line package
+- Twitter authenticator
+- Google street view mapper
+- Google translator
+- Wikipedia population counter
+- Beautiful screenmaking
+- Youtube-to-Giffer
+- My weather forecast
+
 
 ## New structure
+
+
+- exercises
+- routines (groups of exercises)
+  - vertical
+    - bash: Calculate New York Times revenues per Congressmember
+    - python
+    - python-cli
+    - matplotlib
+    - flask
+    - flask-frozen
+ 
+  - horizontal
+    - Understanding regular expressions and command-line grep
+    - csvcut
+
+  - topical
+    - Congressional expenditures
+    - Campaign Finance Contributions
+
+
+
+--------------
+Example routine:
+
+
+exercises:
+  routines:
+  standalone:
+  
+
+
+
+
+
+- vertical:
+
+  Goldman Sachs Pie
+  - point-and-click: 
+    bash: regex only
+    bash: csvcut, regex
+    bash: regex, curl, multi-year
+    bash: gnuplot
+    bash: auto-webpage maker
+    python: regex only
+    python: csv + regex
+    python: multiyear, requests
+    python: pandas/matplotlib
+    python: cli-interface
+    python: web app
+
+  Congressional-gender
+
+  - bash ack
+  - bash bioguide scrape?
+  - Python: YAML to CSV data-wrangle
+  - Python: YAML full object orientation
+  - Python: Baseplotmap map
+  - Python GMAps api
+
+  Show me earthquakes this hour
+
+  - Bash: earthquakes this hour, naive regex, ack printing
+  - Bash: ack, csvcut
+  - Python: regex only
+  - Python: regex-plus-csv
+  - Python: json parsing
+  - Python: make google static map
+  - Python: cli-interface
+  - Flask app
+  - AWS texter
+
+  Earthquakes this big
+  - Bash
+  - Python regex only
+  
+
+  Name-popularity
+
+  - Bash: bc, ack
+  - Bash with cli
+  - Python interactive
+  - Python CLI argument count
+  - Python argparse
+  - Python chartmaker
+  - Python wrangle
+  - Python pandas
+  - Python datasets/SQL
+  - Flask app
+
+
+
+- Verticals
+  - CLI: How long until I die?
+  - Python:
+  - Python-with-data
+    - life-expectancy-graph
+  - CLI: How long until you die?
+
+
+- horizontals:
+
+  regex-and-ack
+  - goldman sachs calculate
+  - benfords-law
+  - earthquake filter
+
+  data-parsing and regex
+  - 
+
+
+- topical:
+  - FEC campaign finance
+
+Earthquakes
+
+
+
+----------
 
 end-user-software
 
@@ -56,11 +194,11 @@ command-line/
   directory-structure.rst
   file-handling.rst
   stdout-stdin.rst
-  commands/
     syntax
       - |
       - $variable
       - ${variable}
+      - $(command)
       - >>
       - >
       - <
@@ -74,67 +212,44 @@ command-line/
       - whitespace
       - newlines
 
-    standard/
-      - grep
-      - ls
-      - print
-      - cp
-      - sed
-      - sort
-      - uniq
-      - head
-      - tail
-      - rm
-      - ln
-      - mkdir
-      - rmdir    
-      - find
-      - pgrep
-      - pkill
-      - sleep
-      - echo
-      - printf
-      - pwd
-      - whoami
-      - rsync
-      - chmod
-      - cut
-      - basename
-      - hostname
-      - date
-      - ps
-      - cat
-      - kill
-      - seq
-      - wc
-      - tr
-      - tar
-      - touch
-      - less
-      - man
-      - nano
-      - history
 
-
-    third-party/
+    non-standard/
       - ack
+      - in2csv
       - convert
       - csvcut
       - csvgrep
+      - csvsql
+      - csvstack
       - csvsort
+      - sqlite3
       - youtube-dl
-      - ffmpeg/avconv
+      - ffmpeg
       - curl
       - wget
+      - mdfind
       - whois
-      - should-a-line-break-before-or-after-a-binary-operator
+      - openssl
+      - cowsay
+      - tesseract
+      - ffmpeg
+
+
+
+      - pdftotext
+      - pbpaste
+      - pbcopy
+      - screencapture
+      - open
+      - say
 
 
 
 remote-login:
   - ssh
   - scp
-
+  - rsync
+  
 
 fundamental-python/
     binary-operators
@@ -426,10 +541,15 @@ fundamental-python/
 
 # Python Third Party Libraries
 
+- xlrd
+- dateutil https://dateutil.readthedocs.io/en/stable/
+  - rrule https://dateutil.readthedocs.io/en/stable/examples.html
+  - parse
+  - 
 - PIL
 - Requests
 - pytz
-
+- python-dateutils
 
 # Python Web Development with Flask
 
@@ -492,7 +612,7 @@ https://www.youtube.com/watch?v=VLdmEDOAA4A
       - use csvgrep to filter by year
 
 - Shakespeare word count
-
+- pbpaste to pbcopy, amazon to smile
 - Build a Gutenberg spellcheck
 
 - Caesar Cipher
@@ -532,6 +652,9 @@ https://www.youtube.com/watch?v=VLdmEDOAA4A
 
 - Name reconciliation of shooting victims
 
+- Count up congressmembers
+- Find congressmember with longest term
+- Fix up NYPD timestamps, get an hourly time series
 
 
 ######## Prep
@@ -554,6 +677,10 @@ https://www.youtube.com/watch?v=VLdmEDOAA4A
   - LA County shooting incidents  
   - Dallas shooting incidents
   - Chicago shooting incidents
+  - Power 100
+  - IMDB top 500
+  - Congressmembers
+
 
 
 # Samples
