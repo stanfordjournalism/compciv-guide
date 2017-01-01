@@ -1,28 +1,31 @@
+*******************
 Regular expressions
-===================
+*******************
 
 
-# How to use them
-# How to practice them
-
-
-
-# Basic syntax
-- Dot operator
-- Word boundaries and whitespace
-- Alternation
-- Character classes
-- Character groups
-
-
-# He
+.. # How to use them
+.. # How to practice them
 
 
 
 
-# Repetition
-- Greedy
-- Repetition range
+.. toctree::
+   :maxdepth: 1
 
-- Captured groups
-- Lookahead, Lookbehinds
+
+   thinking-in-patterns
+   how-to-use-regex
+
+   dot
+   anchors-boundaries
+   alternate-options
+   character-classes
+
+   repetition
+   greedy-lazy
+   limited-repetition
+
+   capturing-groups
+   look-arounds
+   if-else
+

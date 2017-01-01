@@ -4,13 +4,10 @@ Here's the stuff
 .. toctree::
    :maxdepth: 2
 
-   end-user-software/index
-
+   regular-expressions/index
 
 
 .. toctree::
    :maxdepth: 2
 
-   command-line/index
-
-
+   end-user-software/index
