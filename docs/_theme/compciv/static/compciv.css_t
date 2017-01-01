@@ -1,0 +1,55 @@
+@import url(css/theme.css);
+@import url(colorful.css);
+@import url(typography.css);
+
+
+.rst-content img{
+    border: thin solid #555;
+    box-shadow: 10px 10px 5px #bbbbbb;
+}
+
+
+.command{
+  font-family: Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+}
+
+div[class^='highlight'] pre{
+  font-size: 15px;
+
+}
+
+
+code, .rst-content tt, .rst-content code {
+  font-size: 100%;
+}
+
+h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend{
+  font-family: "Lato","ff-tisa-web-pro","Georgia",Arial,sans-serif;
+}
+
+p{
+    font-family: "Lora", "Georgia", Lato, serif;
+}
+
+.wy-nav-content{
+    margin-left: 0;
+}
+
+.wy-nav-content-wrap {
+    margin-left: 0;
+    min-height: 100%;
+}
+
+
+.wy-nav-side{
+    left: auto;
+    right: 0;
+}
+
+
+@media screen and (max-width: 768px){
+    .wy-nav-side {
+      left: auto;
+      right: -300px;
+    }
+}

@@ -11,3 +11,9 @@ Here's the stuff
    :maxdepth: 2
 
    end-user-software/index
+
+
+.. toctree::
+   :maxdepth: 2
+
+   command-line/index
